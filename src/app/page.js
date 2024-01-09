@@ -1,6 +1,6 @@
 import { ChevronDown } from 'lucide-react'
-import Paylouts from '@/Components/Paylouts'
 import { navList } from './navList'
+import Payouts from '@/components/Payouts'
 
 export default function Home() {
   return (
@@ -84,7 +84,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <Paylouts />
+        <Payouts />
       </section>
     </main>
   )

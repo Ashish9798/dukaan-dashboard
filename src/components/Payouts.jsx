@@ -52,8 +52,8 @@ const orderList = [
     },
 ];
 
-const Paylouts = () => {
-    console.log("hi")
+const Payouts = () => {
+    // console.log("hi")
     return (
         <div className='w-full bg-white px-[32px] text-[#1E2640] border-t-[1px] border-[#D9D9D9]'>
             <div className='flex justify-between py-[24px]'
@@ -252,4 +252,4 @@ const Paylouts = () => {
 }
 
 
-export default Paylouts
+export default Payouts
